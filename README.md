@@ -1,2 +1,0 @@
-# kyleyasumiishi
-Portfolio Website
