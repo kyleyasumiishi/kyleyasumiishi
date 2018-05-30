@@ -120,14 +120,14 @@ gulp.task('dev', ['css', 'js', 'browserSync'], function() {
   gulp.watch('./*.html', browserSync.reload);
 });
 
-// Update gh-pages
-gulp.task('gh-pages', function() {
+// Update docs
+gulp.task('docs', function() {
     gulp.src('./css')
-        .pipe(gulp.dest('./gh-pages'));
+        .pipe(gulp.dest('./docs'));
     gulp.src('./img')
-        .pipe(gulp.dest('./gh-pages'));
+        .pipe(gulp.dest('./docs'));
     gulp.src('./js')
-        .pipe(gulp.dest('./gh-pages'));
+        .pipe(gulp.dest('./docs'));
     gulp.src('./index.html')
-        .pipe(gulp.dest('./gh-pages'));
-})
+        .pipe(gulp.dest('./docs'));
+});
