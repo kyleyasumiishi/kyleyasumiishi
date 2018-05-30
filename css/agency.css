@@ -48,7 +48,7 @@ section h3.section-subheading {
   font-size: 16px;
   font-weight: 400;
   font-style: italic;
-  margin-bottom: 75px;
+  margin-bottom: 50px;
   text-transform: none;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -463,7 +463,7 @@ header.masthead .intro-text .intro-heading {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;
+  border: 7px solid #f2f2f2;
   border-radius: 100%;
   background-color: #0173B2;
 }
@@ -519,7 +519,7 @@ header.masthead .intro-text .intro-heading {
   }
   .timeline > li {
     min-height: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   .timeline > li .timeline-panel {
     float: left;
