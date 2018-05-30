@@ -119,3 +119,15 @@ gulp.task('dev', ['css', 'js', 'browserSync'], function() {
   gulp.watch('./js/*.js', ['js']);
   gulp.watch('./*.html', browserSync.reload);
 });
+
+// Update gh-pages
+gulp.task('gh-pages', function() {
+    gulp.src('./css')
+        .pipe(gulp.dest('./gh-pages'));
+    gulp.src('./img')
+        .pipe(gulp.dest('./gh-pages'));
+    gulp.src('./js')
+        .pipe(gulp.dest('./gh-pages'));
+    gulp.src('./index.html')
+        .pipe(gulp.dest('./gh-pages'));
+})
