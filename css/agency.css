@@ -256,6 +256,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 #portfolio .portfolio-item .portfolio-caption {
+  text-decoration: none;
+  color: inherit;
   max-width: 400px;
   margin: 0 auto;
   padding: 25px;
