@@ -246,6 +246,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 #portfolio .portfolio-item .portfolio-link {
+  text-decoration: none;
+  color: inherit;
   position: relative;
   display: block;
   max-width: 400px;

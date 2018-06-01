@@ -37,6 +37,7 @@ After downloading, simply edit the HTML and CSS files. To preview changes, you c
 * Bootstrap 4
 * Formspree
 * Gulp
+* SCSS
 
 ## Authors
 
