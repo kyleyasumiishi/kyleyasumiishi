@@ -122,12 +122,16 @@ gulp.task('dev', ['css', 'js', 'browserSync'], function() {
 
 // Update docs
 gulp.task('docs', function() {
-    gulp.src('./css')
-        .pipe(gulp.dest('./docs'));
-    gulp.src('./img')
-        .pipe(gulp.dest('./docs'));
-    gulp.src('./js')
-        .pipe(gulp.dest('./docs'));
+    gulp.src('./css/*')
+        .pipe(gulp.dest('./docs/css/'));
+    gulp.src('./img/about/*')
+        .pipe(gulp.dest('./docs/img/about/'));
+    gulp.src('./img/portfolio/*')
+        .pipe(gulp.dest('./docs/img/portfolio/'));
+    gulp.src('./img/headshot.jpg')
+        .pipe(gulp.dest('./docs/img/'));
+    gulp.src('./js/*')
+        .pipe(gulp.dest('./docs/js/'));
     gulp.src('./index.html')
         .pipe(gulp.dest('./docs'));
 });
