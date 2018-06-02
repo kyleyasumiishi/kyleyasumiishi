@@ -122,8 +122,6 @@ gulp.task('dev', ['css', 'js', 'browserSync'], function() {
 
 // Update docs
 gulp.task('docs', function() {
-    gulp.src('./vendor/*')
-        .pipe(gulp.dest('./docs/vendor/'));
     gulp.src('./css/*')
         .pipe(gulp.dest('./docs/css/'));
     gulp.src('./img/about/*')
